@@ -5,7 +5,6 @@ import Homepage from './Homepage';
 import WelcomePage from './Welcomepage';
 import Contactus from './Contactus';
 import Button from './Button';
-import {Alert, Tab} from 'react-bootstrap'
 // import Home from './Home';
 // import Student from './Student';
 
@@ -51,7 +50,6 @@ function App() {
   }
   return (
     <div className="App">
-    <Alert variant={"primary"}>App component Begins here...</Alert>
       {hobBtn}
       {/* {tmBtn} */}
       {/* <Homepage/> */}
